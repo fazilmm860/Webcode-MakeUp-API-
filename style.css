@@ -1,0 +1,61 @@
+body{
+    background-color: #000000;
+}
+#search-container{
+    display: block;
+    text-align: center;
+    border: 2px solid yellowgreen;
+    height: 150px;
+    border-radius: 5px;
+    
+    
+       
+}
+#search-input{
+    width: 400px;
+    height: 50px;
+    border-radius: 18px;
+    background-image:linear-gradient(to bottom, #533f3f, #000000); 
+    color: white;
+}
+#search-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 18px;
+    background-image:linear-gradient(to bottom, #8fc41b, #0aea15); 
+    color: white;
+}
+h1{
+    text-align: center;
+    color: yellow;
+    
+}
+.product{
+    display: grid;
+    text-align: center;
+    margin: 20px;
+    background-color: black;
+    background-image: linear-gradient(to bottom, #252222, #000000); ;
+    color:white;
+    border-radius: 10px;
+    box-shadow: 
+    2px 2px 5px rgba(0, 0, 0, 0.3), 
+    -2px -2px 5px rgba(255, 255, 255, 0.3);
+  
+}
+
+img{
+    display: grid;
+    width: 300px;
+   margin-left: 40%;
+   border-radius: 10px;
+}
+
+a{
+    margin-top: 5px;
+    color: aliceblue;
+    
+}
+a:hover{
+    transform: scale(2);
+}
